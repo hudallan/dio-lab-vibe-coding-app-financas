@@ -73,14 +73,37 @@ Durante essa etapa, você pode orientar a IA para três entregas principais:
 Finalize seu projeto criando um **repositório no GitHub** (pode ser um **fork** deste).  
 No README do seu repositório, inclua:
 
-- Seu **prompt final** (PRD);  
-- Prints ou pequenos vídeos das interações com a IA;  
-- Um resumo do que o seu **App de Finanças Pessoais** faz;  
-- Uma breve **reflexão sobre o processo**:
-  - O que funcionou bem?  
-  - O que não funcionou como o esperado?  
-  - O que aprendeu sobre conversar com IAs?
+PLANO DE MVP: APLICATIVO DE FINANÇAS POR CHAT
 
+FASE 1: AS PRINCIPAIS TELAS (A JORNADA DO USUÁRIO)
+
+1. A Tela de Chat (O Coração do App)
+- Como funciona: Interface estilo WhatsApp. O usuário envia mensagens de texto (ex: "Gastei 45 reais de Uber hoje").
+- O que o App faz: O "Agente Financeiro" processa a mensagem, classifica automaticamente e responde confirmando (ex: "Anotado! R$ 45,00 categorizados em Transporte. Faltam R$ 150,00 no seu limite dessa categoria.").
+
+2. Dashboard Simplificado (Visão Geral)
+- Como funciona: Tela visual e livre de jargões contábeis.
+- O que o App faz: Exibe saldo atual, total gasto no mês e um gráfico simples com as principais categorias de despesas (Alimentação, Moradia, Transporte).
+
+3. Metas e Dicas
+- Como funciona: Área para acompanhar objetivos de economia.
+- O que o App faz: Mostra barras de progresso visuais (ex: "Reserva de Emergência: 40% concluído") e armazena o histórico de dicas do Agente Financeiro.
+
+
+FASE 2: RECURSOS NECESSÁRIOS (POR TRÁS DAS CÂMERAS)
+
+- Processamento de Linguagem Natural (PLN): Tecnologia para "ler" o texto e extrair valor, ação e categoria do gasto.
+- Motor de Regras Simples: Gatilhos para dicas. Exemplo: se o usuário gastar mais de 80% do limite de "Lazer", o sistema envia uma dica de economia.
+- Banco de Dados na Nuvem: Armazenamento seguro de histórico, saldos e metas para sincronização.
+
+
+FASE 3: ESBOÇO DE VALIDAÇÃO INICIAL (TESTANDO A IDEIA)
+Técnica: "Mágico de Oz" (simulação manual de um sistema automatizado).
+
+Passo 1: O Teste do WhatsApp (Semanas 1 e 2). Recrute de 5 a 10 pessoas do público-alvo. Peça para enviarem os gastos para o seu número. Você lê, anota em uma planilha e responde como se fosse o robô.
+Passo 2: Análise de Padrões. Observe como as pessoas escrevem, se usam áudio, se esquecem de anotar algo. Isso guiará a construção da IA.
+Passo 3: Entrevistas de Feedback. Ao final de duas semanas, pergunte aos usuários sobre a praticidade e a utilidade das dicas.
+Passo 4: Ajuste e Construção. Com a ideia validada, inicie o desenvolvimento do app sabendo exatamente o que o usuário quer.
 > [!TIP]
 > Publique seu repositório e compartilhe o link na plataforma da DIO! Sua entrega é a prova de que você domina o raciocínio de Vibe Coding, mesmo sem escrever uma única linha de código.
 
